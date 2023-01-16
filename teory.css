@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(172, 183, 142);
+}
+
+h1{
+    font-family: 'Shrek', arial;
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 4s ease infinite;
+    animation: rainbow 4s ease infinite;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+@-webkit-keyframes rainbow{
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+   
+@keyframes rainbow{
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+h2{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    display: block;
+    color:rgb(19, 69, 46);
+    font-size: 2rem;
+}
+
+h3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5rem;
+    color:rgb(19, 69, 46);
+    line-height: 1.8;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(19, 69, 46);
+
+}
+
+ul li a:hover{
+    color: white;
+}
+
+p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2rem;
+}
+
+.title{
+    color: white;
+}
+
+.scheme{
+    text-align: center;
+}

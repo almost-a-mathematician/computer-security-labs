@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(172, 183, 142);
+}
+
+h1{
+    font-family: 'Shrek', arial;
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 4s ease infinite;
+    animation: rainbow 4s ease infinite;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+@-webkit-keyframes rainbow{
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+   
+@keyframes rainbow{
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+h2{
+    color:white;
+    font-family: 'Shrek', arial;
+    font-size: 2rem;
+    text-align: center;
+    filter: opacity(0.65);
+}
+
+#text-to-work{
+    width: 25rem;
+    height: 2.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    border-color: rgb(31, 91, 64);
+    border-radius: 1.5rem;
+    border-width: 0.2rem;
+    border-style:ridge;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Shrek', arial;
+    font-size: 2rem;
+}
+
+textarea::placeholder{
+    font-family: 'Shrek', arial;
+    font-size: 2rem;
+}
+
+#encrypt-step{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-color: rgb(31, 91, 64);  
+    border-radius: 1.5rem;
+    border-width: 0.2rem;
+    margin: 0 auto;
+    display: block;
+    filter: opacity(0.65);
+    font-family: 'Shrek', arial;
+    color: white;
+    background-color: rgb(172, 183, 142);
+}
+
+select{
+    text-align-last: center;
+}
+
+button{
+    border: none;
+    color: rgb(31, 91, 64);
+    background-color: rgb(172, 183, 142);
+    font-family: 'Shrek', arial;
+    margin: 20px auto;
+    display: block;
+    font-size: 2rem;
+    filter: opacity(0.65);
+    font-size: 1.5rem;
+    display: inline-flex;
+    margin-top: 2rem;
+}
+
+#output{
+    width: 25rem;
+    height: 2.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    border-color: rgb(31, 91, 64);
+    border-radius: 1.5rem;
+    border-width: 0.2rem;
+    border-style:ridge;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Shrek', arial;
+    font-size: 2rem;
+}
+
+.chs{
+    font-size: 1.3rem;
+    margin-top: -0.1rem;
+}
+      
+
+.form-control{
+    font-family: 'Shrek', arial;
+    font-size: 2rem;
+    width: 25rem;
+    height: 2.5rem;
+    text-align: center;
+    border-color: rgb(31, 91, 64);
+    border-radius: 1.5rem;
+    border-width: 0.2rem;
+    border-style:ridge;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.text-center{
+    font-family: 'Shrek', arial;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    filter: opacity(0.65);
+}
+
+.pechenka{
+    height: 50rem;
+    width: 38rem;
+    position: absolute;
+    top: 15%;
+    left: 65%;
+}
+
+.loli1{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+
+.loli2{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+}
+
+.loli3{
+    position: absolute;
+    top: 70%;
+    left: 6%;
+}
+
+.loli4{
+    position: absolute;
+    top: 100%;
+    left: 6%;
+}

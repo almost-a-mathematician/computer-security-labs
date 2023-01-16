@@ -1,0 +1,89 @@
+@import url(https://allfont.ru/allfont.css?fonts=shrek);
+
+body{
+    background-color: rgb(172, 183, 142);
+}
+
+h1{
+    font-family: 'Shrek', arial;
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 4s ease infinite;
+    animation: rainbow 4s ease infinite;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-top: 1.5rem;
+    text-align:center;
+}
+
+@-webkit-keyframes rainbow{
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+   
+@keyframes rainbow{
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+h2{
+    z-index: 1;
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-align:center;
+    text-decoration: none;
+    font-family: 'Shrek', arial;
+    text-shadow: 1px 1px 1px #aaa;
+    line-height: 4.5rem;    
+    filter: opacity(0.65);
+}
+
+a{
+    z-index: 999999;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+a:hover{
+    color: rgb(31, 91, 64);
+}
+
+.donkey{
+    height: 47rem;
+    width: 25rem;
+    margin-top: -50rem;
+    margin-left: 60rem;
+}
+
+.shrek-and-fiona{
+    height: 53rem;
+    width: 35rem;
+    margin-top: -50rem;
+    margin-left: -2rem
+}
+
+.scrimer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    background: url(./media/video1.mp4);
+    z-index: -9999;
+}
+
+.play {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background: rgba(255, 255, 255, 0.012);
+    opacity: 0;
+}
+

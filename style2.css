@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(172, 183, 142);
+}
+
+h1{
+    font-family: 'Shrek', arial;
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 4s ease infinite;
+    animation: rainbow 4s ease infinite;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+@-webkit-keyframes rainbow{
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+   
+@keyframes rainbow{
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+h2{
+    color:white;
+    font-family: 'Shrek', arial;
+    font-size: 2rem;
+    text-align: center;
+    filter: opacity(0.65);
+}
+
+table{
+    margin: auto;
+    border-collapse:separate;
+}
+
+td{
+    padding: 0rem;
+    border: 0.1rem solid rgb(31, 91, 64);
+    text-align: center;
+    border-radius: 3rem;
+}
+
+td p, #tranMatrix td{
+    margin: 0;
+    padding: 1.6rem 2rem;
+    min-width: 2rem; 
+    min-height: 2rem;
+    font-family: 'Shrek', arial;
+    color:white;
+    font-size: 2rem;
+}
+
+td p:focus{
+    outline: 0.1rem solid #edf1e9;
+    border-radius: 3rem;
+}
+
+.button-create{
+    border: none;   
+    color: rgb(31, 91, 64);
+    background-color: rgb(172, 183, 142);
+    font-family: 'Shrek', arial;
+    margin: 10px auto;
+    display: block;
+    font-size: 2rem;
+    filter: opacity(0.65);
+}
+
+.button-choose-size{
+    border: none;
+    color: rgb(31, 91, 64);
+    background-color: rgb(172, 183, 142);
+    font-family: 'Shrek', arial;
+    margin: 10px auto;
+    display: block;
+    font-size: 2rem;
+    filter: opacity(0.65);
+    text-align: center;
+}
+
+#chooseSize{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-color: rgb(31, 91, 64);  
+    border-radius: 1.5rem;
+    border-width: 0.2rem;
+    border-style:ridge;
+    margin-left: 40rem;
+    filter: opacity(0.65);
+    font-family: 'Shrek', arial;
+    color: white;
+    background-color: rgb(172, 183, 142);
+}
+
+select{
+    text-align-last: center;
+}
+
+button{
+    border: none;
+    color: rgb(31, 91, 64);
+    background-color: rgb(172, 183, 142);
+    font-family: 'Shrek', arial;
+    margin: 10px auto;
+    display: block;
+    font-size: 2rem;
+    filter: opacity(0.65);
+    text-align: center;
+    filter: opacity(0.65);
+}
+
+.poletushka{
+    height: 50rem;
+    width: 33rem;
+    position: absolute;
+    top: 15%;
+    left: 64%;
+}
+
+.poletushka2-0{
+    height: 50rem;
+    width: 33rem;
+    position: absolute;
+    top: 15%;
+    right: 64%; 
+}
+

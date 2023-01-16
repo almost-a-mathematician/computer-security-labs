@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(172, 183, 142);
+}
+
+h1{
+    font-family: 'Shrek', arial;
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 4s ease infinite;
+    animation: rainbow 4s ease infinite;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+@-webkit-keyframes rainbow{
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+   
+@keyframes rainbow{
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+h2{
+    color:white;
+    font-family: 'Shrek', arial;
+    font-size: 2rem;
+    text-align: center;
+    filter: opacity(0.65);
+}
+
+.text{
+    width: 10rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    border-color: rgb(31, 91, 64);
+    border-radius: 2rem;
+    border-width: 0.2rem;
+    border-style:ridge;
+    margin: 0 auto;
+    display: block;
+    opacity: 70%;
+}
+
+.key{
+    width: 10rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    border-color: rgb(31, 91, 64);
+    border-radius: 2rem;
+    border-width: 0.2rem;
+    border-style:ridge;
+    margin: 0 auto;
+    display: block;
+    filter: opacity(0.65);
+}
+
+.answer{
+    width: 10rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    border-color: rgb(31, 91, 64);
+    border-radius: 2rem;
+    border-width: 0.2rem;
+    border-style:ridge;
+    margin: 0 auto;
+    display: block;
+    filter: opacity(0.65);  
+}
+
+.button_shifr{
+    border: none;
+    color: rgb(31, 91, 64);
+    background-color: rgb(172, 183, 142);
+    font-family: 'Shrek', arial;
+    margin: 10px auto;
+    display: block;
+    font-size: 2rem;
+    filter: opacity(0.65);
+}
+
+.select{
+    border: none;
+    color: rgb(31, 91, 64);
+    background-color: rgb(172, 183, 142);
+    font-family: 'Shrek', arial;
+    margin: 10px auto;
+    display: block;
+    font-size: 2rem;
+    filter: opacity(0.65);
+}
+
+.second_div{
+    display: inline-flex;
+    margin-top: 2rem;
+}
+
+.content{
+    margin-top: 1.5rem;
+    margin-left: 20rem;
+}
